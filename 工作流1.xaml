@@ -2,11 +2,13 @@
   <x:Members>
     <x:Property Name="ru" Type="InArgument(x:String)" />
     <x:Property Name="chu" Type="OutArgument(x:String)" />
+    <x:Property Name="test" Type="InArgument(x:String)" />
+    <x:Property Name="test2" Type="InArgument(x:String)" />
   </x:Members>
   <VisualBasic.Settings>
     <x:Null />
   </VisualBasic.Settings>
-  <sap:VirtualizedContainerService.HintSize>1410.4,628.8</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1410.4,824</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>工作流1_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -84,7 +86,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="工作流1" sap:VirtualizedContainerService.HintSize="513.6,564" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="工作流1" sap:VirtualizedContainerService.HintSize="513.6,759.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -98,7 +100,7 @@
         <InArgument x:TypeArguments="x:String">[ru+"添加后"]</InArgument>
       </Assign.Value>
     </Assign>
-    <ui:CommentOut DisplayName="注释掉" sap:VirtualizedContainerService.HintSize="451.2,353.6" sap2010:WorkflowViewState.IdRef="CommentOut_1">
+    <ui:CommentOut DisplayName="注释掉" sap:VirtualizedContainerService.HintSize="451.2,370.4" sap2010:WorkflowViewState.IdRef="CommentOut_1">
       <ui:CommentOut.Body>
         <Sequence DisplayName="已忽略的活动" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="Sequence_2">
           <sap:WorkflowViewStateService.ViewState>
@@ -110,5 +112,6 @@
         </Sequence>
       </ui:CommentOut.Body>
     </ui:CommentOut>
+    <ui:CopyFile ContinueOnError="{x:Null}" Destination="D:\tangyun\投资部_数字一致性校验\Files\a.txt" DisplayName="复制文件" sap:VirtualizedContainerService.HintSize="451.2,178.4" sap2010:WorkflowViewState.IdRef="CopyFile_1" Overwrite="True" Path="D:\tangyun\投资部_数字一致性校验\Files\ERROR模板.xlsx" />
   </Sequence>
 </Activity>
