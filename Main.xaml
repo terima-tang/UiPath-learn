@@ -126,7 +126,7 @@
     <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[ru]" />
     <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[shuchu]" />
     <ui:LogMessage DisplayName="日志消息" sap:VirtualizedContainerService.HintSize="433.6,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[chu]" />
-    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="CP_Web" CacheStrategy="None" DisplayName="获取资产" sap:VirtualizedContainerService.HintSize="433.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_1">
+    <ui:GetRobotAsset TimeoutMS="{x:Null}" AssetName="CP_Web" CacheStrategy="None" DisplayName="获取资产" sap:VirtualizedContainerService.HintSize="433.6,175.2" sap2010:WorkflowViewState.IdRef="GetRobotAsset_2">
       <ui:GetRobotAsset.Value>
         <OutArgument x:TypeArguments="x:String" />
       </ui:GetRobotAsset.Value>
